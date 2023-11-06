@@ -1,0 +1,17 @@
+entero contador;
+booleano estaActivo;
+caracter letra;
+
+inicio
+    contador = 0;
+    estaActivo = verdadero;
+    letra = 'a';
+    si (contador) < (10) entonces
+        contador = contador + 1;
+    fin_si
+    si (estaActivo) == (verdadero) entonces
+        llamar procesarContador;
+    sino
+        contador = contador - 1;
+    fin_si
+fin
